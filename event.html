@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Olympic Event Details</title>
+  <link rel="stylesheet" href="event.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="header">Olympic Event Details</h1>
+    <table class="event-table">
+      <thead>
+        <tr>
+          <th>Event</th>
+          <th>Venue</th>
+          <th>Timing</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>100m Sprint Finals</td>
+          <td>Olympic Stadium, Paris</td>
+          <td>July 26, 2024<br>5:00 PM - 6:00 PM</td>
+        </tr>
+        <tr>
+          <td>Marathon</td>
+          <td>City Streets, Paris</td>
+          <td>July 28, 2024<br>7:00 AM - 1:00 PM</td>
+        </tr>
+        <tr>
+          <td>Swimming 200m Butterfly</td>
+          <td>Aquatic Center, Paris</td>
+          <td>July 30, 2024<br>3:00 PM - 4:30 PM</td>
+        </tr>
+        <!-- Add more events as needed -->
+      </tbody>
+    </table>
+    
+    <!-- Back Button -->
+    
+    <div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d112225.40048793198!2d77.5046096!3d28.4782286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1727407410851!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+    <button class="back-button" onclick="goBack()">← Back</button>
+  </div>
+
+  <!-- Optional JavaScript for Back Button Functionality -->
+  <script>
+    function goBack() {
+      window.history.back();
+    }
+  </script>
+</body>
+</html>
+

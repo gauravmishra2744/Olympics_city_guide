@@ -1,0 +1,131 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing:border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+html,body{
+    height: 100%;
+    width: 100%
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+#strip{
+    height: 8%;
+    width: 100%;
+    background-color:white;
+}
+#header{
+    height: 17%;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+}
+.texts{
+    margin: 20px;
+    color: white;
+    display: flex;
+}
+#logo{
+    height: 70%;
+    
+}
+#logo img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.icon{
+    color: white;
+     padding: 10px;
+     border-radius: 50%;
+}
+.topic{
+    color: white;
+}
+.topic h1{
+    margin-right: 250px;
+    margin-left: 250px;
+}
+.icon:hover{
+    background-color: lightblue;
+}
+#fakeheader{
+    height: 17%;
+    width: 100%; 
+}
+#page1{
+    display: flex;
+    width: 100%;
+    height: 85%;
+    background-color: aqua;   
+}
+.page1in{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 40%;
+    height: 100%;
+    background-color: gold;
+}
+.img1{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+b{
+    font-weight: 900;
+}
+#strip{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 5%;
+    width: 100%;
+    background-color: white;
+}
+#page2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;  
+    height: 85%;
+}
+.img2{
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+}
+#page3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;  
+    height: 85%;
+}
+.img3{
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+}
+#page4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;  
+    height: 85%;
+}
+.img4{
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+}
+

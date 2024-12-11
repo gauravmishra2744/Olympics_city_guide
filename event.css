@@ -1,0 +1,107 @@
+ /* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styling */
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #74ebd5 0%, #acb6e5 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  /* Container for the content */
+  .container {
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    width: 90%;
+    max-width: 800px;
+  }
+  
+  /* Header styling */
+  .header {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 2em;
+    color: #333;
+  }
+  
+  /* Table styling */
+  .event-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .event-table thead {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .event-table th, .event-table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .event-table tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .event-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .event-table th {
+    font-size: 1.1em;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 600px) {
+    .event-table thead {
+      display: none;
+    }
+  
+    .event-table, .event-table tbody, .event-table tr, .event-table td {
+      display: block;
+      width: 100%;
+    }
+  
+    .event-table tr {
+      margin-bottom: 15px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 10px;
+      background-color: #fff;
+    }
+  
+    .event-table td {
+      text-align: right;
+      padding-left: 50%;
+      position: relative;
+    }
+  
+    .event-table td::before {
+      content: attr(data-label);
+      position: absolute;
+      left: 15px;
+      width: 45%;
+      padding-right: 10px;
+      font-weight: bold;
+      text-align: left;
+    }
+  }
+  
+  .map{
+    padding-top: 20px;
+  }
+  .back-button{
+    border-radius: 10%;
+    background-color: greenyellow;
+  }
